@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1691753061 source:c:\users\lenovo\documents\codeblocks\bancaulisvania\main.cpp
+	<iostream>
+	<iomanip>
+	<bits/stdc++.h>
+

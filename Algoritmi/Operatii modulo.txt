@@ -1,0 +1,11 @@
+Reguli
+-------
+
+Adunare:
+(A+B)%mo = (A%mo + B%mo)%mo
+
+La fel
+pentru *
+
+
+(A-B)%mo = (A – B +mo)%mo

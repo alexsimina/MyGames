@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1695657367 source:d:\insertfoldernamehere\siplasplas\highscore...orisit\main.cpp
+	<iostream>
+	<fstream>
+

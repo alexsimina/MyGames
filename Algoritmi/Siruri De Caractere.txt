@@ -1,0 +1,60 @@
+false = 0; true != 0;
+
+------------------------------
+char s;
+
+isdigit(s); e cifra?
+isalpha(s); e litera?
+islower(s); e litera mica?
+isupper(s); e litera mare?
+tolower(s); tot litere mici
+toupper(s); tot litere mari
+isspace(s); e spatiu (\n ' ')?
+
+------------------------------
+
+char s[], s1[], s2[];
+
+strlen(s) - lungimea sirului;
+strdup(s) - idk
+stpcpy(s1, s2) - copiaza din s2 in s1
+strncpy(s1, s2, n) - copiaza maxim n elemente din s2 in s1
+strcat(s1, s2) - pune s2 dupa finalul lui s1
+strncat(s1, s2, n) - pune maxim n elemente de la s2 la finalul lui s1
+strcmp(s1, s2) - compara lexicografic (alfabetic), daca s1 este mai mare returneaza nr
+		 pozitiv, daca este s2 mai mare returneaza negativ, daca sunt egale 0
+strncmp(s1, s2, n) - compara lexicografic primele n elemente din s1 cu primele n 
+		     elemente din s2
+stricmp(s1, s2) - compara s1 si s2 ignorand daca literele sunt mari sau mici
+strnicmp(s1, s2, n) - compara primele n elemente din s1 si s2 ignorand daca literele 
+		      sunt mari sau mici
+strchr(s, *LITERA*) - gaseste prima aparitie a *LITEREI* din s
+
+
+
+!!!!!!!!!!!!!!!!!
+-----------------
+
+strtok(NULL, *DELIMITATORI*) - va lua din sir toate cuvintele desparti prin 
+			       *DELIMITATORI*
+Exemplu:
+p - pointer (char *p);
+char propozitieCHAR[257];
+map <string, int> Cuvant;
+
+    p = strtok(propozitieCHAR, " ");  //setam pointerul ca tot charul
+    while(p)
+    {
+        Cuvant[p]++;		      //Cuvant[pointer]++ (vector de frecventa)
+        p = strtok(NULL, " ");	      //luam fiecare cuvant la rand delimitat de " "
+
+    }
+
+https://drive.google.com/drive/u/3/folders/1gYtlJHXQqmdi1P-DYU5EEOt_in4QUQEn
+
+!!!!!!!!!!!!!!!!!!!
+-------------------
+
+atol(char/string); //transforma acel char in int;
+strtol(*begin, *end, baza) //transforma numarul din baza *baza* care se afla in
+ 			     acest sir incepand de la *begin pana la *end in baza 10
